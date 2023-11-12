@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+  font-family: 'JetBrains Mono',monospace;
+}
+
+.check:checked {
+  color: "green"
+}
+
+.MuiPaper-root { 
+  background-color: #383a45 !important;
+}
+
+.MuiDialog-paper {
+  min-width: 400px;
+  max-width:450px;
+}
